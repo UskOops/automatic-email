@@ -1,7 +1,7 @@
 import smtplib 
 import email.message #library
 
-def send_email():
+def send_email(): #define function
     email_body = """
     <p> Hello, this is a test email </p>
     <p> Take care and wash your hands </p> """
